@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms</title>
+</head>
+
+<body>
+
+    <h1>Handling form and form datas in html</h1>
+
+    <!-- creating a form -->
+    <!-- action : where this form should be processed -->
+    <!-- method attribute: how should the data be sent for processing -->
+    <!-- post: send it secretly  -->
+    <!-- get : users can actually see the data -->
+
+
+    <!-- <form action="https://google.com/search" method="get"> -->
+    <!-- <p>search:</p>
+        <input type="text" name="q"> -->
+
+
+    <!-- <button type="submit">submit</button> -->
+    <!-- </form> -->
+
+    <form action="" method="get">
+        <!-- input to insert username -->
+        <!-- type: which kind of data does this input receive -->
+        <p>username:</p>
+        <input type="text" name="username" placeholder="john doe">
+
+        <p>email:</p>
+
+        <!-- email input -->
+        <input type="email" name="email" required>
+
+        <p>amount:</p>
+        <!-- please enter an amount -->
+        <input type="number" name="amount">
+
+        <p>Password:</p>
+        <input type="password" name="password">
+        <br>
+
+        <p>Date of birth</p>
+        <input type="datetime-local" name="date">
+
+
+        <p>pick ur favorite color:</p>
+        <input type="color" name="color">
+
+        <p>terms and condition</p>
+        <input type="checkbox" name="agreed">
+        <br>
+
+        <!-- select -->
+        <p>Select ur state:</p>
+        <select name="state">
+            <!-- add selection options -->
+            <option value="abia">abia</option>
+            <option value="anambra">anambra</option>
+        </select>
+
+        <textarea name="comment" id=""></textarea>
+        <br><br>
+        <!-- submitting a form -->
+        <button type="submit">submit</button>
+    </form>
+
+</body>
+
+</html>
