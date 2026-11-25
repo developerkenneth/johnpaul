@@ -1,0 +1,43 @@
+/* basic css properties */
+
+h1 {
+  color: orange;
+}
+
+p {
+  color: crimson;
+  font-size: 30px;
+  margin: 45px;
+  background-color: green;
+}
+
+aside {
+  padding: 40px;
+  background-color: gray;
+}
+header {
+  background-color: pink;
+  color: purple;
+  font-size: 50px;
+  text-align: center;
+  border: 15px ridge gray;
+  margin: 75px;
+}
+
+footer {
+  border: 2px solid green;
+  margin: 100px;
+  margin-bottom: 300px;
+  background-color: #eee;
+  padding: 150px;
+}
+
+main {
+  margin: 45px;
+  padding: 45px;
+}
+
+h1 {
+  text-align: center;
+  background-color: lightcoral;
+}
