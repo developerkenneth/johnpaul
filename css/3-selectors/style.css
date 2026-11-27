@@ -1,0 +1,25 @@
+.sub-title {
+  font-size: 75px;
+  text-align: center;
+  color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+#sub-title {
+  background-color: orange;
+  font-size: 55px;
+  text-align: center;
+  color: white;
+}
+
+.bg-green h1 {
+  text-align: center;
+  color: white;
+}
